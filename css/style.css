@@ -1,6 +1,7 @@
 /* Acerca de */
 .container-acerca{
   background-color: #ffa073;
+  height: 690px;
 }
 .acerca-content-wrapper {
   max-width: 910px;
@@ -33,6 +34,12 @@
   .acerca-content p {
     font-size: 18px;
   }
+}
+
+#ribbon{
+  background-color: #ffa073;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgb(198, 123, 89) 25px, rgb(198, 123, 89) 40px);
+  height: 80px;
 }
 
 /*Menu Tienda */
@@ -113,8 +120,9 @@
 }
 
 .contacto .descripcion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .contacto button {
@@ -2678,7 +2686,7 @@ table tbody {
 02. Slider area
 --------------------------*/
 .hero-slider-item {
-  height: 680px;
+  height: 645px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
